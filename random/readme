@@ -1,0 +1,11 @@
+# random
+
+Daddy, teach me how to use random value in programming!
+
+## Remote
+
+Direct connection: `nc pwnable.kr 10005`
+
+## Local run
+
+Run `./run.sh`, then connect with `nc 127.0.0.1 10005`.
