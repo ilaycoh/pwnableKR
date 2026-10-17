@@ -1,0 +1,14 @@
+# horcruxes
+
+Voldemort concealed his splitted soul inside 7 horcruxes. Find all horcruxes, and ROP it!
+
+## Remote
+
+Direct connection: `nc pwnable.kr 10016`
+
+connect to port 10016 (nc pwnable.kr 10016). the 'horcruxes' binary will be executed under horcruxes_pwn privilege.
+rop it to read the flag.
+
+## Local run
+
+Run `./run.sh`, then connect with `nc 127.0.0.1 10016`.
