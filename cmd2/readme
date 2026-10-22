@@ -1,0 +1,15 @@
+# cmd2
+
+Daddy bought me a system command shell. but he put some filters to prevent me from playing with it without his permission... but I wanna play anytime I want!
+
+## Remote
+
+Interactive terminal: `socat STDIO,raw,echo=0,opost,onlcr TCP:pwnable.kr:10013`
+
+Once connected, execute the `cmd2` binary and obtain the flag.
+
+## Local run
+
+Run `./run.sh`, then connect with:
+
+`socat STDIO,raw,echo=0,opost,onlcr TCP:127.0.0.1:10013`
